@@ -10,8 +10,6 @@ local function timerListener(event)
 	print("EVENT LISTENER")
 end
 
-
-
 local time = timer.performWithDelay(1000,timerListener,6)
 timer.pause(time)
 
